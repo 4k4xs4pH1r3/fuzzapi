@@ -12,7 +12,7 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 3. Install Fuzzapi gem dependencies (ruby 2.6.2p47 (2019-03-13 revision 67232) [x86_64-linux] + Rails 4.2.7.1)
 
-       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && bundle install
+       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install rails -v 5.2.4.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && rvm install 2.6.5 && rvm use 2.6.5 && bundle install
 
 5. `rake db:migrate` to creates tables, migrations etc.
 

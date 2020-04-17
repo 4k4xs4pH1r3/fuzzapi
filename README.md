@@ -6,15 +6,13 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 1. Install ruby in your machine using [rvm](https://rvm.io/rvm/install) and [rbenv](https://gorails.com/setup/ubuntu/20.04)
 
-2. Clone the repository into your localmachine
+2. Clone the repository into your machine
 
         cd /root && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /root/fuzzapi/bin
 
-3. Prepare Fuzzapi directory
+3. Prepare Fuzzapi directory to install the gem dependencies of the application
 
-       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2
-
-4. `bundle install` to install the gem dependencies of the application
+       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && bundle install
 
 5. `rake db:migrate` to creates tables, migrations etc.
 

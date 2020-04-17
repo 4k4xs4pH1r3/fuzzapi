@@ -12,7 +12,7 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 3. Install Fuzzapi gem dependencies (Ruby 2.6.5 + Rails 5.2.4.1)
 
-       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install rails -v 5.2.4.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && rvm install 2.6.5 && rvm use 2.6.5 && bundle install
+       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install rails -v 5.2.4.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && rvm install 2.6.5 && rvm use 2.6.5 && bundle install && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1`
 
 5. `rake db:migrate` to creates tables, migrations etc.
 
@@ -22,9 +22,15 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 Fuzzapi comes with `Docker` to simplify installation processing. Following commands will setup application using `Docker`.
 
-1. Clone the repository into your local machine
+1. Install ruby in your machine using [rvm](https://rvm.io/rvm/install) and [rbenv](https://gorails.com/setup/ubuntu/20.04)
 
-2. `cd /path/Fuzzapi`, move to Fuzzapi directory
+2. Clone the repository into your machine
+
+        cd /root && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /root/fuzzapi/bin
+
+3. Install Fuzzapi gem dependencies (Ruby 2.6.5 + Rails 5.2.4.1)
+
+       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install rails -v 5.2.4.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && rvm install 2.6.5 && rvm use 2.6.5 && bundle install && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1`
 
 3. Install Docker in your local machine
 

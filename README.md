@@ -10,7 +10,10 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
         cd /root && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /root/fuzzapi/bin
 
-3. Prepare Fuzzapi directory to install the gem dependencies of the application
+3. Install Fuzzapi gem dependencies
+
+ruby 2.6.2p47 (2019-03-13 revision 67232) [x86_64-linux]
+Rails 4.2.7.1
 
        gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && bundle install
 

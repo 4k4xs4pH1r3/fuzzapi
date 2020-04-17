@@ -12,7 +12,7 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 3. Prepare Fuzzapi directory
 
-       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2
+       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2
 
 4. `bundle install` to install the gem dependencies of the application
 

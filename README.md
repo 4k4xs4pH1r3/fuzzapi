@@ -28,7 +28,7 @@ Fuzzapi comes with `Docker` to simplify installation processing. Following comma
 
         cd /root && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /root/fuzzapi/bin
 
-3. Install Fuzzapi gem dependencies (Ruby 2.6.5 + Rails 5.2.4.2)
+3. Install & update fuzzapi gem dependencies [rails 5.2.4.2](https://rubygems.org/gems/rails/versions) + [ruby 2.6.6](https://www.ruby-lang.org/en/downloads/releases/)
 
        gem install bundler:2.1.4 && gem install activesupport:5.0.0 && gem install rails -v 5.2.4.2 && rvm install 2.6.6 && rvm use 2.6.6 && gem install puma -v 4.3.3 && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1` && bundle install
 

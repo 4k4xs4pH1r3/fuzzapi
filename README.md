@@ -30,7 +30,7 @@ Fuzzapi comes with `Docker` to simplify installation processing. Following comma
 
 3. Install Fuzzapi gem dependencies (Ruby 2.6.5 + Rails 5.2.4.1)
 
-       gem install bundler:1.15.0 && gem install rails -v 4.2.7.1 && gem install rails -v 5.2.4.1 && gem install puma -v 4.3.3 && rvm install 2.6.2 && rvm use 2.6.2 && rvm install 2.6.5 && rvm use 2.6.5 && bundle install && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1`
+       gem install bundler:2.1.4 && gem install activesupport:5.0.0 && gem install rails -v 5.2.4.2 && rvm install 2.6.6 && rvm use 2.6.6 && gem install puma -v 4.3.3 && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1` && bundle install
 
 3. Install Docker in your local machine
 

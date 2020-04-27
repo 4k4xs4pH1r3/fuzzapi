@@ -8,7 +8,7 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
 2. Clone the repository into your machine
 
-        cd /root && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /root/fuzzapi/ && mkdir -p app/assets/config && echo '{}' > app/assets/config/manifest.js && cd /root/fuzzapi/bin
+        cd /usr/share/ && git clone https://github.com/4k4xs4pH1r3/fuzzapi.git && cd /usr/share/fuzzapi/ && mkdir -p app/assets/config && echo '{}' > app/assets/config/manifest.js && cd /usr/share/fuzzapi/bin
 
 3. Install & update fuzzapi gem dependencies [ruby 2.7.1](https://www.ruby-lang.org/en/downloads/releases/) + [rails 6.0.2.2](https://rubygems.org/gems/rails/versions)
 

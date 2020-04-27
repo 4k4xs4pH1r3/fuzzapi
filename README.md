@@ -14,7 +14,7 @@ Fuzzapi is rails application which uses API_Fuzzer and provide UI solution for g
 
        rvm install 2.7.1 && rvm use 2.7.1 && gem install rails -v 6.0.2.2 && rbenv rehash && bundle update && gem install API_Fuzzer && gem install rubygems-update && update_rubygems && gem update --system && sudo gem update && gem update `gem outdated | cut -d ' ' -f 1` && bundle install && rails -v && ruby -v && rvm -v && rbenv -v
 
-5. `rake db:migrate` to creates tables, migrations etc.
+5. `rake db:migrate` to create tables, migrations etc.
 
 6. `rails s` to run the server and run `export REDIS_URL=redis://127.0.0.1:6379/0 && bundle exec sidekiq` to run sidekiq.
 

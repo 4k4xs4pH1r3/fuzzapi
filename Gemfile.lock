@@ -86,7 +86,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.7)
-    connection_pool (2.2.2)
+    connection_pool (2.2.3)
     crass (1.0.6)
     devise (4.7.1)
       bcrypt (~> 3.0)
@@ -197,11 +197,10 @@ GEM
       tilt
     sdoc (1.1.0)
       rdoc (>= 5.0)
-    sidekiq (6.0.6)
+    sidekiq (6.1.2)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
-      rack-protection (>= 2.0.0)
-      redis (>= 4.1.0)
+      redis (>= 4.2.0)
     sinatra (2.1.0)
       mustermann (~> 1.0)
       rack (~> 2.2)

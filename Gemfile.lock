@@ -187,7 +187,7 @@ GEM
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    rollbar (3.1.2)
+    rollbar (3.2.0)
     ruby2_keywords (0.0.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
